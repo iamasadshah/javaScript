@@ -37,4 +37,3 @@ d.onclick = () => {
     d.style.backgroundColor = "Green"
     d.style.borderRadius = "10px"
     d.style.translateY = "-1"
-}
