@@ -44,3 +44,9 @@ Explore platforms like Codecademy and freeCodeCamp for interactive learning.
 # Conclusion
 Learning JavaScript is an exciting journey that opens doors to web development opportunities. Embrace the basics, practice regularly, and gradually challenge yourself with small projects. Remember, the key to mastery is consistent practice and a curious mindset.
 
+
+# Book Reference : 
+JavaScript from Beginner to Professional 
+
+ *By Laurence Lars Svekis and Rob Percival
+
