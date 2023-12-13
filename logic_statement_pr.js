@@ -103,5 +103,40 @@ In this exercise, we'll create a Magic 8-Ball random answer generator:
    selected case response, to the console after the user enters their question.
  */
 
-let randomvalue = Math.random();
-randomvalue = randomvalue * 5;
+
+// 1. Set a variable with a random value (0-5 for 6 possible results)
+let randomValue = Math.floor(Math.random() * 6);
+
+// 2. Create a prompt to get a string value input from the user
+let userQuestion = prompt("Ask me a question:");
+
+// 3. Create 6 responses using a switch statement
+let response;
+switch (randomValue) {
+  case 0:
+    response = "Yes, definitely!";
+    break;
+  case 1:
+    response = "No, not at all.";
+    break;
+  case 2:
+    response = "I'm not sure, try again later.";
+    break;
+  case 3:
+    response = "Possibly, but it's uncertain.";
+    break;
+  case 4:
+    response = "Ask a friend for advice.";
+    break;
+  case 5:
+    response = "The outlook is good!";
+    break;
+  default:
+    response = "Sorry, I didn't catch that.";
+}
+
+// 4. Create a variable to hold the end response
+let finalResponse = `You asked: "${userQuestion}"\n My answer: ${response}`;
+
+// 5. Output the user's original question and the randomly selected case response to the console
+console.log(finalResponse);
