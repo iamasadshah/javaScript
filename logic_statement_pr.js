@@ -1,3 +1,4 @@
+// ==================ELSE IF STATEMENTS ==================== //
 /* Question #1
 1. Create a variable with a Boolean value. 
 2. Output the value of the variable to the console. 
@@ -62,3 +63,45 @@ if(age >= 21){
 }else{
     console.log("Please enter a valid age!")
 }
+
+// ========================================================= //
+
+// =================TURNARY OPERATOR============== //
+/*
+QUESTION #3
+1. Create a Boolean value for an ID variable 
+2. Using a ternary operator, create a message 
+   variable that will check whether their ID is 
+   valid and either allow a person into a venue or not 
+3. Output the response to the console
+*/
+
+let isIDValid = true;
+let message = isIDValid ? "Welcome! You can enter the venue." : "Sorry, your ID is not valid. Access denied.";
+console.log(message)
+
+// ======================================================== //
+
+             // =========SWITCH STATEMENT========= //
+
+/*
+In this exercise, we'll create a Magic 8-Ball random answer generator:
+
+1. Start by setting a variable that gets a random value assigned to it. 
+   The value is assigned by generating a random number 0-5, 
+   for 6 possible results. You can increase this number as 
+   you add more results. 
+2. Create a prompt that can get a string value input from a 
+   user that you can repeat back in the final output. 
+3. Create 6 responses using the switch statement,
+   each assigned to a different value from the random number generator.   
+4. Create a variable to hold the end response, which should be a 
+   sentence printed for the user. You can assign different string 
+   values for each case, assigning new values depending on the 
+   results from the random value. 
+   5. Output the user's original question, plus the randomly 
+   selected case response, to the console after the user enters their question.
+ */
+
+let randomvalue = Math.random();
+randomvalue = randomvalue * 5;
