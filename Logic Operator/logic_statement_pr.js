@@ -84,7 +84,7 @@ console.log(message)
 
              // =========SWITCH STATEMENT========= //
 
-/*
+/* QUESTION #4
 In this exercise, we'll create a Magic 8-Ball random answer generator:
 
 1. Start by setting a variable that gets a random value assigned to it. 
@@ -140,3 +140,64 @@ let finalResponse = `You asked: "${userQuestion}"\n My answer: ${response}`;
 
 // 5. Output the user's original question and the randomly selected case response to the console
 console.log(finalResponse);
+
+
+// ========================================================= //
+
+/*QUESTION #5
+
+1. Create a variable called prize and use a prompt to ask the user to set the value by selecting a number between 0 and 10 
+2. Convert the prompt response to a number data type 
+3. Create a variable to use for the output message containing the value "My Selection: " 
+4. Using the switch statement (and creativity), provide a response back regarding a prize that is awarded depending on what number is selected 
+5. Use the switch break to add combined results for prizes 
+6. Output the message back to the user by concatenating your prize variable strings and the output message string 
+*/
+
+let prize = prompt("select a number from 0 to 10")
+prize = parseInt(prize);
+console.log("My Selection:", prize)
+
+var outputMessage = "My Selection: ";
+
+switch (prize) {
+   case 0:
+       outputMessage += "You win a vacation!";
+       break;
+   case 1:
+      outputMessage += "SORRY! You've got nothing;
+       break;
+   case 2:
+       outputMessage += "Congratulations! You get a gift card.";
+       break;
+   case 3:
+      outputMessage += "You win headphones";
+       break;
+   case 4:
+       outputMessage += "You've won a movie ticket!";
+       break;
+   case 5:
+      outputMessage += "You win Laptop";
+       break;
+   case 6:
+       outputMessage += "Hooray! You receive a discount coupon.";
+       break;
+   case 7:
+      outputMessage += "Wow! You get a Phone";
+       break;
+   case 8:
+       outputMessage += "You win a book!";
+       break;
+   case 9:
+      outputMessage += "Try Next time";
+       break;
+   case 10:
+       outputMessage += "Wow! You get a gaming console.";
+       break;
+   default:
+       outputMessage += "Sorry, no prize for that selection.";
+}
+
+ console.log(outputMessage)
+
+// ===================================================================== //
