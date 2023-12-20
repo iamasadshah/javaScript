@@ -1,4 +1,4 @@
-//=======================================CHAPTER PROJECT=====================
+//=======================================FINAL PROJECT OF LOOPS====================
 /*
 1. Set up a blank array to contain the final multiplication table. 
 2. Set a value variable to specify how many values you want to multiply with one another and show the results for. 
@@ -8,7 +8,7 @@
 */
 let multiplicationTable = [];
 
-let tableSize = 10; 
+let tableSize = 10;
 
 for (let i = 1; i <= tableSize; i++) {
   let tempRow = [];
